@@ -1,0 +1,19 @@
+{
+  "name": "Rick Astley Detection",
+  "version": "1.0",
+  "description": "Never get rolled again",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "scripts/detect.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
