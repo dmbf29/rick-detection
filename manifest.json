@@ -2,7 +2,7 @@
   "name": "Rick Astley Detection",
   "version": "1.0",
   "description": "Never get rolled again",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "content_scripts": [
     {
       "matches": [
